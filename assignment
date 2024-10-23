@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes rotate360 {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .service-card:hover {
+            animation: rotate360 1s linear;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Adding some dummy content above to show this is a section -->
+    <div class="h-20 bg-white"></div>
+
+    <!-- Main services section with proper margins -->
+    <section class="bg-indigo-900 my-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <h2 class="text-4xl font-bold text-white mb-12">OUR SERVICES</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Emergency Plumbing Services -->
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg transition-all duration-300">
+                    <div class="flex justify-center mb-4">
+                        <div class="p-3 bg-gray-100 rounded-full">
+                            <i class="fas fa-phone text-blue-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-center mb-2">
+                        Emergency Plumbing Services
+                    </h3>
+                    <p class="text-sm text-gray-600 text-center mb-4">
+                        Our plumbers are ready to go 24/7 for emergencies - including nights, weekends and holidays.
+                    </p>
+                    <div class="text-center">
+                        <button class="text-indigo-600 hover:text-indigo-800 font-medium">
+                            EXPLORE THIS SERVICE &gt;
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Plumbing and Drains -->
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg transition-all duration-300">
+                    <div class="flex justify-center mb-4">
+                        <div class="p-3 bg-gray-100 rounded-full">
+                            <i class="fas fa-droplet text-blue-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-center mb-2">
+                        Plumbing and Drains
+                    </h3>
+                    <p class="text-sm text-gray-600 text-center mb-4">
+                        As the largest plumbing and drain service company, we make thousands of repairs every day.
+                    </p>
+                    <div class="text-center">
+                        <button class="text-indigo-600 hover:text-indigo-800 font-medium">
+                            EXPLORE THIS SERVICE &gt;
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Water Damage -->
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg transition-all duration-300">
+                    <div class="flex justify-center mb-4">
+                        <div class="p-3 bg-gray-100 rounded-full">
+                            <i class="fas fa-tint text-blue-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-center mb-2">
+                        Water Damage
+                    </h3>
+                    <p class="text-sm text-gray-600 text-center mb-4">
+                        Our teams are equipped with state-of-the-art water extraction and cleanup equipment.
+                    </p>
+                    <div class="text-center">
+                        <button class="text-indigo-600 hover:text-indigo-800 font-medium">
+                            EXPLORE THIS SERVICE &gt;
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Water Heaters -->
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg transition-all duration-300">
+                    <div class="flex justify-center mb-4">
+                        <div class="p-3 bg-gray-100 rounded-full">
+                            <i class="fas fa-fire text-blue-600 text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-center mb-2">
+                        Water Heaters
+                    </h3>
+                    <p class="text-sm text-gray-600 text-center mb-4">
+                        Trust Roto-Rooter for repair and replacement of gas, electric and tankless water heaters.
+                    </p>
+                    <div class="text-center">
+                        <button class="text-indigo-600 hover:text-indigo-800 font-medium">
+                            EXPLORE THIS SERVICE &gt;
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adding some content below -->
+    <div class="h-20 bg-white"></div>
+</body>
+</html>
